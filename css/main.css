@@ -1,5 +1,25 @@
 /* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
+@font-face {
+	font-family: 'Communist';
+	src: url('../fonts/Communist.eot');
+	src: url('../fonts/Communist.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Communist.woff') format('woff'),
+		url('../fonts/Communist.ttf') format('truetype'),
+		url('../fonts/Communist.svg#Communist') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
+@font-face {
+	font-family: 'Nobile';
+	src: url('../fonts/Nobile-Regular.eot');
+	src: url('../fonts/Nobile-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Nobile-Regular.woff') format('woff'),
+		url('../fonts/Nobile-Regular.ttf') format('truetype'),
+		url('../fonts/Nobile-Regular.svg#Nobile-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 /* Start the CSS*/
 body {
@@ -22,29 +42,29 @@ body {
 }
 
 h1 {
-
+font-family: Communist;
 }
 
 h2 {
-
+font-family: Communist;
 }
 
 h3 {
-
+font-family: Communist;
 }
 
 h4 {
-
+font-family: Communist;
 }
 
 h5 {
-
+font-family: Communist;
 }
 
 h6 {
-
+font-family: Communist;
 }
 
 p {
-
+font-family: Nobile;
 }
